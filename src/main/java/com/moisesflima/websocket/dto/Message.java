@@ -1,4 +1,4 @@
-package com.moisesflima.websockets;
+package com.moisesflima.websocket.dto;
 
 public class Message {
 

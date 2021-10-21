@@ -1,12 +1,12 @@
-package com.moisesflima.websockets;
+package com.moisesflima.websocket.dto;
 
-public class OutputMessage {
+public class MessageOutput {
 
     private String from;
     private String text;
     private String time;
 
-    public OutputMessage(final String from, final String text, final String time) {
+    public MessageOutput(final String from, final String text, final String time) {
 
         this.from = from;
         this.text = text;

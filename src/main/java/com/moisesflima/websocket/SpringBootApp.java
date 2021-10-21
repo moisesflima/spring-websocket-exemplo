@@ -1,12 +1,13 @@
-package com.moisesflima;
+package com.moisesflima.websocket;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-public class SpringBootApp extends SpringBootServletInitializer {
-    public static void main(String[] args) {
-        SpringApplication.run(SpringBootApp.class, args);
-    }
-}	
+public class SpringBootApp{
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootApp.class, args);
+	}
+}
